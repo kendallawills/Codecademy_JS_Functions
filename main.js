@@ -38,3 +38,15 @@ function monitorCount(rows, columns) {
 const numOfMonitors = monitorCount(5, 4);
 
 console.log(numOfMonitors);
+
+// Helper Functions
+
+function monitorCounts(rows, columns) {
+    return rows * columns;
+}
+function costOfMonitors(rows, columns) {
+    return monitorCounts(rows, columns) * 200;
+}
+const totalCost = costOfMonitors(5, 4);
+
+console.log(totalCost);
