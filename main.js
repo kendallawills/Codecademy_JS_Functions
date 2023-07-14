@@ -71,3 +71,11 @@ const plantNeedsWater = (day) => {
 }
 */
 
+// Concise Body Arrow Functions
+/*
+const greaterThanFive = (num) => {
+    return num > 5 ? true : false;
+}
+*/
+
+const greaterThanFive = num => num > 5 ? true : false;
