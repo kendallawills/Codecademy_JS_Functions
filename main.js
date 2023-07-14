@@ -63,3 +63,11 @@ const plantNeedsWater = function(day) {
 plantNeedsWater('Tuesday');
 
 console.log(plantNeedsWater('Tuesday'));
+
+// Arrow Functions
+/*
+const plantNeedsWater = (day) => {
+
+}
+*/
+
