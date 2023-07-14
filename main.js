@@ -16,3 +16,9 @@ sayThanks();
 sayThanks();
 sayThanks();
 
+// Parameters and Arguments
+function sayThankYou(name) {
+    console.log('Thank you for your purchase '+ name + '! We appreciate your business.');
+}
+
+sayThankYou('Cole');
